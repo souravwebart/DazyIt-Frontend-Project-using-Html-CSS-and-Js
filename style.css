@@ -613,6 +613,11 @@ display: block;
         object-fit: cover;
         object-position: 50% 50%;
     }
+    .sticky-top {
+        position: sticky;
+        top: 0;
+        z-index: 1 !important;
+    }
     .header-slides img {
         width: 100%;
         height: auto;
